@@ -1,0 +1,23 @@
+a.	Dian adalah orang.
+b.	Atoz adalah mobil.
+c.	Dian suka atoz.
+d.	Atoz dijual.
+e.	X dapat membeli Y jika X adalah orang dan Y adalah mobil dan X suka Y dan Y dijual.
+f.	Setiap orang suka apa (nama mobil).
+
+1.	A. hobi(ricky,catur).
+2.	B. malas(embang).
+3.	C. vegetarian(yusida).
+4.	D. pandai_main(kusdiar,gitar).
+5.	E. warna(mobil,merah)
+6.	F. pemain_piano(awan,Pontianak,jawa).
+7.	G. baik(orang):-punya_sifat(orang,penyayang),punya_sifat(orang,dermawan).
+8.	H. pintar(orang,matematika); pintar(orang,IPA); pintar(orang,IPS);
+9.	I. mati(_).
+
+Keyword pada prolog
+; adalah or atau
+:- adalah jika
+, adalah dan
+. adalah untuk mengakhiri sebuah pernyataan
+% untuk memberi sebuah komentar
