@@ -1,0 +1,23 @@
+predicates
+  suka(symbol,symbol) - nondeterm (i,o)
+  dosen(symbol,symbol) - nondeterm (i,i)
+  matkul(symbol) - nondeterm (o)
+
+clauses
+  suka(saya,Matkul):-
+  matkul(Matkul),
+  dosen(Matkul,ga_banyak_ngasihtugas).
+
+  dosen(pem_jaringan,baik).
+  dosen(framework,killer).
+  dosen(kecerdasan_buatan,ga_banyak_ngasihtugas).
+
+  matkul(framework).
+  matkul(smbd).
+  matkul(pem_visual).
+  matkul(jaringan).
+  matkul(kecerdasan_buatan).
+
+goal
+  suka(saya,Saya_Suka_Matkul).
+	
